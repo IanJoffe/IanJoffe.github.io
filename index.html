@@ -23,11 +23,18 @@
         }
         .content {
             display: flex;
+            flex-direction: column;
             margin: 20px;
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+        .top-section {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
         }
         .profile-photo {
             margin-right: 20px;
@@ -62,20 +69,22 @@
         <h1>Ian Joffe</h1>
     </header>
     <div class="content">
-        <img src="Headshot04_21_23.jpg" alt="Headshot" class="profile-photo">
-        <div class="bio">
-            <p>Welcome to my website, it's great to see you here! I'm still working on uploading my consciousness, but in the meantime you can</p>
-            <div class="links">
-                <a href="Resume05_03_24.pdf" download><img src="PDFlogo.png" alt="PDF">Download my Resume</a>
-                <a href="https://www.linkedin.com/in/ian-joffe-bb4181192/" target="_blank"><img src="Linkedinlogo.png" alt="LinkedIn">Connect with Me on LinkedIn</a>
-                <a href="https://x.com/ian_joffe" target="_blank"><img src="Xlogo.png" alt="X/Twitter">Find me on X/Twitter</a>
-                <a href="https://github.com/IanJoffe" target="_blank"><img src="Githublogo.png" alt="Github">Check out my Github</a>
+        <div class="top-section">
+            <img src="Headshot04_21_23.jpg" alt="Headshot" class="profile-photo">
+            <div class="bio">
+                <p>Welcome to my website, it's great to see you here! I'm still working on uploading my consciousness, but in the meantime you can</p>
+                <div class="links">
+                    <a href="Resume05_03_24.pdf" download><img src="PDFlogo.png" alt="PDF">Download my Resume</a>
+                    <a href="https://www.linkedin.com/in/ian-joffe-bb4181192/" target="_blank"><img src="Linkedinlogo.png" alt="LinkedIn">Connect with Me on LinkedIn</a>
+                    <a href="https://x.com/ian_joffe" target="_blank"><img src="Xlogo.png" alt="X/Twitter">Find me on X/Twitter</a>
+                    <a href="https://github.com/IanJoffe" target="_blank"><img src="Githublogo.png" alt="Github">Check out my Github</a>
+                </div>
             </div>
         </div>
         <div class="additional-info">
             <p>
-                I'm currently entering my second year as an M.S. student in statistics at University of Chicago.
-                I graduated from UC Berkeley in 2023 with a B.S. in Electrical Engineering and Computer Science and a minor in Mechanical Engineering and Data Science. 
+                I'm currently entering my second year as an M.S. student in statistics at University of Chicago, and
+                I graduated from UC Berkeley in 2023 with a B.S. in Electrical Engineering and Computer Science and minors in Mechanical Engineering and Data Science. 
                 I'm interested in mathematics of deep learning, prediction markets, and kinda everything. Some of my abilities include 
             </p>
             <ul>
